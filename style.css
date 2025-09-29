@@ -1,0 +1,126 @@
+@font-face {
+    font-family: newFont;
+    src: url(./Absans-Regular.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: newFont;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.header{
+    padding: 50px 20px;
+    font-weight: 900;
+    background-color: rgb(55, 85, 174);
+    justify-content: center;
+    font-size:xx-large;
+    
+    /* margin-bottom: 20px; */
+    color: rgb(212, 255, 57);
+}
+
+.fullstack{
+    color: rgb(165, 66, 66);
+}
+
+#content{
+    padding: 20px;
+    background-color: rgb(189, 161, 67);
+}
+.aboutme{
+    padding: 10px;
+    border-radius: 12px; 
+    background-color: #fff;
+    max-width: 70%;
+    justify-self: center;
+    border: 2px solid black;    
+}
+
+.aboutborder{
+    border-bottom: 1px solid black;
+}
+
+.highlight{
+    font-style: italic;
+    color: rgb(243, 165, 48);
+    font-weight: bolder;
+}
+
+ul{
+    list-style: none;
+}
+
+#education{
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    width: 70%;
+    justify-self: center;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);    
+    border-radius: 12px; 
+}
+
+li{
+    border: 2px solid rgb(101, 98, 98);
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    justify-self: center;
+    
+}
+
+#skills{
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    width: 70%;
+    justify-self: center;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 12px; 
+}
+
+#projects{
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    width: 70%;
+    justify-self: center;
+    border: 2px solid black;
+    background: linear-gradient(to right, #1fec2d, #a7ffeb);
+    border-radius: 12px;    
+}
+
+#projects li:hover{
+    background-color: blanchedalmond;
+}
+
+a{
+    text-decoration: none;
+}
+
+#contactme{
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    width: 70%;
+    justify-self: center;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);   
+    border-radius: 12px; 
+}
+
+.footer{
+    background-color: rgb(55, 85, 174) ;
+    color: #fff;
+    padding: 20px;
+}
